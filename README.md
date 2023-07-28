@@ -46,7 +46,7 @@ You are expected to complete the following tasks:
   - Design and implement a get customer claims endpoint
     - Expectations: 
       - Providing a customer_id, start_time (inclusive) and end_time (inclusive), the endpoint will return a list of claims from that specific customer within the time between start_time and end_time
-      - Format of start_time and end_time is YYYYMMDDHHMSS (e.g. 20230615132510 means 2023/06/15 13:25:10 (UTC+0))
+      - Format of start_time and end_time is YYYYMMDDHHMMSS (e.g. 20230615132510 means 2023/06/15 13:25:10 (UTC+0))
       - Output format as illustrated in the example below
       - Always sort the output with ascending creation_time
   - The claims data can be retrieved through a third-party service. You can use fetch_raw_claims_by_customer_id() defined in dummy.py. 
