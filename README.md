@@ -58,7 +58,7 @@ You are expected to complete the following tasks:
 After you have completed your work:
   - Clone the repo, and create a new repo in your private github account, mark the repo as private
   - Checkin your changes into your own repo
-  - All the following email as a repo collaborator: technology@napo.pet
+  - Add the following email as a repo collaborator: technology@napo.pet
   - tar zip your work folder (without the virtual env folder)
   - submit it via https://forms.gle/qQcKgYGiAxiPwKB48
 
