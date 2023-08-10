@@ -48,12 +48,11 @@ You are expected to complete the following tasks:
       - Providing a customer_id, start_time (inclusive) and end_time (inclusive), the endpoint will return a list of claims from that specific customer within the time between start_time and end_time
       - Format of start_time and end_time is YYYYMMDDHHMMSS (e.g. 20230615132510 means 2023/06/15 13:25:10 (UTC+0))
       - Output format as illustrated in the example below
-      - Always sort the output with ascending creation_time
-  - The claims data can be retrieved through a third-party service. You can use fetch_raw_claims_by_customer_id() defined in dummy.py. 
-  - Implement test cases (in tests/ folder) to verify the correctness of your work
-  - Feel free to reorg / restructure the code if you think necessary
-  - Build and run the FastAPI application inside a docker container and verify the
-    endpoint is working as expected, using curl requests
+      - Always output with ascending creation_time
+  - The claims data supposes to be retrieved through a third-party service. For simplicity of this test, you can use fetch_raw_claims_by_customer_id() pre-defined in dummy.py. 
+  - Implement test cases (in tests/ folder) to verify the correctness of your work.
+  - Build and run the FastAPI application inside a docker container and verify the endpoint is working as expected, using curl requests.
+  - There isn't any strict time limit that you can spend on this task. Feel free to reorg / restructure the code if you think necessary.
 
 
 After you have completed your work:
@@ -65,7 +64,7 @@ After you have completed your work:
 
 
 Before the interview, we will review your work. 
-If necessary, we may ask you further questions related to your work during the interview. 
+If necessary, you may be asked to demonstrate your work through screen sharing, we may also ask you further questions related to your work during the interview. 
 
 
 ## Get customer claims endpoint behaviour
