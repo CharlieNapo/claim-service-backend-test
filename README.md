@@ -60,7 +60,8 @@ After you have completed your work:
   - Checkin your changes into your own repo
   - Add the following email as a repo collaborator: technology@napo.pet
   - tar zip your work folder (without the virtual env folder)
-  - submit it via https://forms.gle/qQcKgYGiAxiPwKB48
+  - Submit it via https://forms.gle/qQcKgYGiAxiPwKB48
+  - We will primarily assess your work in github, the submitted file is only for backup purpose (just in case there is issue in github).
 
 
 Before the interview, we will review your work. 
